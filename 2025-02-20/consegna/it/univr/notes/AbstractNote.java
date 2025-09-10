@@ -12,7 +12,7 @@ public abstract class AbstractNote implements Note {
 	 * Costruisce la nota.
 	 * 
 	 * @param semitone il semitono della nota
-	 * @throws IllegalNoteException se il semitono è fuoti dai limiti 0...MAX_SEMITONE
+	 * @throws IllegalNoteException se il semitono è fuori dai limiti 0...MAX_SEMITONE
 	 */
 	protected AbstractNote(int semitone) throws IllegalNoteException {
 		// completare
